@@ -1,0 +1,190 @@
+/* LOGIN STYLES */
+@font-face {
+    font-family: 'Geomanist'; /*a name to be used later*/
+    src: url('./fonts/Geomanist/geomanist-regular-webfont.ttf'); /*URL to font*/
+
+}
+.screen-buttons{
+    display:flex;
+}
+.login-grid{
+    height: 100%;
+    background-color: #ebedef;
+    font-family: Geomanist !important;
+}
+.login-grid .header-logo{
+    margin-bottom: 48px;
+}
+.login-grid .header-logo img{
+    margin: auto;
+}
+
+.login-grid .logo-hash{
+    margin-right: 10px;
+}
+.login-grid .login-box{
+    width: 464px;
+    background-color: #ffffff;
+    padding: 32px !important;
+    margin:auto;
+    border-radius: 8px;
+}
+.login-box .login-form{
+    margin-left: 48px;
+    margin-right: 48px;
+}
+.login-grid .login-box .form-control{
+    margin-top:8px;
+    margin-bottom:8px;
+}
+
+.login-grid .logo-hash{
+    color: #009dff;
+    font-size: 22px;
+}
+
+.sign-in {
+    height: 19px;
+    font-size: 16px;
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: #525c6c;
+    margin-top:9px;
+    margin-bottom:22px;
+    text-align: center;
+}
+
+.congratulations-title {
+    height: 19px;
+    font-size: 16px;
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: #525c6c;
+    margin-top:47px;
+    margin-bottom:12px;
+    text-align: center;
+}
+
+.login-footer{
+    margin-top: 50px;
+}
+.login-footer div{
+    color: #8f96a1;
+}
+.login-footer a {
+    color:black;
+}
+.login-footer a:hover {
+    text-decoration: underline;
+}
+.forgot-password{
+    max-width: 352px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+}
+.forgot-password .forgot-form{
+    max-width: 272px;
+    margin: auto;
+}
+.forgot-password img{
+    margin:auto;
+}
+.forgot-password p{
+    margin-bottom: 30px;
+}
+.forgot-password-title {
+    height: 19px;
+    font-size: 16px;
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: #525c6c;
+    margin-top:10px;
+    margin-bottom:12px;
+    text-align: center;
+}
+
+.divider-custom{
+    text-transform: lowercase !important;
+    font-size: 12px !important;
+    width: 160px !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    margin-top: 32px !important;
+    margin-bottom: 26px !important;
+    font-weight: normal !important;
+    color: #8f96a1 !important;
+    font-family: 'Geomanist' !important;
+}
+.login-btn-container{
+    padding: 8px 14px;
+    
+}
+.login-btn-container .facebook-btn{
+    margin-right: 16px;
+}
+.login-btn{
+    font-weight: normal !important;
+}
+.login-btn svg{
+    margin-left:12px;
+}
+.new-password {
+    padding-left: 24px;
+    padding-right: 24px;
+    padding-top: 24px;
+    text-align: center;
+}
+
+.password-reset {
+    padding-left: 56px;
+    padding-right: 56px;
+    padding-top: 9px;
+    text-align: center;
+}
+
+.password-reset .btn-container{
+    margin-top: 59px;
+}
+.password-reset img{
+    margin:auto;
+}
+
+.form-group label{
+    text-align: left ;
+    margin-left: 16px !important;
+    font-size: 14px !important;
+    font-weight: normal !important;
+}
+.new-password-form{
+    padding: 40px 43px 0;
+}
+.new-password-form>div>div{
+    text-align: left;
+    margin-left: 10%;
+    margin-top: 8px;
+}
+
+.new-password-form button{
+    margin-top: 64px !important;
+}
+.new-password .sign-in{
+    margin-top: 0px;
+    margin-bottom: 12px;
+}
+.alter-login{
+    width: 128px !important;
+    margin-right: 16px;
+}

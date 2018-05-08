@@ -1,0 +1,16 @@
+.emptyTableContainer{
+    align-items: center;
+    width:300px;
+    margin: auto;
+}
+.emptyTableContainer .emptyTableText {
+    width: 162px;
+    text-align: left;
+    font-size: 12px;
+}
+.emptyTableImage{
+    margin-right: 32px;
+}
+.emptyTableContainer .emptyTableText p:first-child{
+    font-weight: 500;
+}
